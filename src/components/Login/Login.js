@@ -49,7 +49,7 @@ const Login = (props) => {
     };
   }, []);
 
-  const { isValid: emailIsValid } = emailState;
+  const { isValid: emailIsValid } = emailState; 
   const { isValid: passwordIsValid } = passwordState;
 
   useEffect(() => {
